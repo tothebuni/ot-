@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif Thai", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://uppic.cloud/ib/BJdt4Mta0m.gif);
+}
+.heading{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    margin: 0;
+}
+.heading h1{
+    font-size: 23px;
+}
+.heading h3{
+    font-size: 15px;
+    margin-top: 1px;
+}
+.form{
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    width: 100%;}
+    
+    
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;}
+    
+input.form-control{
+    padding: 0;
+    width: 50%;
+    border-radius: 5px;
+}
+
+input.form-control-1{
+    width: 32%;
+    border-radius: 5px;
+}
+
+.col-3{
+    padding: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+input.form-control-2{
+    width: 57.5%;
+    border-radius: 5px;
+}
+input.form-num-2{
+    width: 15%;
+    margin-left: 37px;
+    border-radius: 5px;
+}
+input.form-monney-2{
+    width: 16.5%;
+    border-radius: 5px;
+}
+button{
+    padding: auto;
+    color: rgb(255, 255, 255);
+    background-color: crimson;
+    border-color: crimson;
+    border-radius: 5px;
+}
+button.btn{
+    margin-top: 9px;
+    margin-right: 0;
+    margin-left: 270px;
+    cursor: pointer;
+    
+}
+.sum{
+    display: grid;
+    margin-top: 10px;
+}
+.sum h3{
+    margin-top: 10px;
+    text-align: center;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 60px;
+    grid-row-gap: 10px;
+    
+}
+.foot h3{
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width: 360px) {
+    
+}
+
+
+    
+
